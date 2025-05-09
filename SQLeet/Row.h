@@ -1,5 +1,4 @@
 #pragma once
-#ifndef ROW_H
 #define ROW_H
 
 #define USERNAME_SIZE 32
@@ -13,5 +12,3 @@ typedef struct {
 
 void serialize_row(Row* source, void* destination);
 void deserialize_row(void* source, Row* destination);
-
-#endif

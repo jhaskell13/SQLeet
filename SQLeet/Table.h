@@ -1,5 +1,4 @@
 #pragma once
-#ifndef TABLE_H
 #define TABLE_H
 
 #include "Row.h"
@@ -27,5 +26,3 @@ typedef struct {
     char column_names[TABLE_MAX_COLS][32];
     Table* data;
 } TableDefinition;
-
-#endif
