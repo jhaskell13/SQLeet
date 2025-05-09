@@ -111,7 +111,7 @@ int main() {
             for (int i = 0; i < def->data->num_rows; i++) {
                 Row row;
                 deserialize_row(row_slot(def->data, i), &row);
-                printf("(%d, %s, %s\n", row.id, row.username, row.email);
+                printf("(%d, %s, %s)\n", row.id, row.username, row.email);
             }
             continue;
         }
